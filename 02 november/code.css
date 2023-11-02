@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main {
+    padding: 1rem; 
+}
+h1::first-letter{
+    color:navy ;
+    font-size: 5rem;
+}
+h1{
+    color: navy;
+}
+h2{
+    text-align: center;
+    margin-bottom:3rem ;
+    color: rgb(71, 3, 3);
+    background-color: dimgray;
+    padding: 1rem 1rem 1rem 1rem ;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 0px 0px 6px;
+
+}
+.imgmor{
+    float: left;
+     box-shadow: 2px 3px 3px ;
+}
+.start{
+    box-shadow: 10px 5px 20px ;
+    width: 400px;
+      text-align: center;
+}
+.date{
+      font-size: 60px;
+      background-color: greenyellow;
+      padding: 3rem;
+      margin-top: 10px;
+}
+.year{
+    padding:1rem ;
+}
+
+.num{
+    margin-top: 3rem;
+
+}
+.list{
+    list-style-type:none; 
+    background-color: grey;
+    width: 10rem;
+}
+.list li:hover{
+    background-color:black ;
+    color: aliceblue;
+    font-size: 22px;
+}
+li {
+    display: inline-block;
+    padding: 2rem;
+}
+.clrchang{
+    background-color: greenyellow;
+    padding: 2rem;
+    text-align: center;
+}
+.clrchang :hover{
+    color:blue;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+
