@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#maindiv{
+    padding: 1rem;
+}
+h1{
+    background-color: azure;
+    text-shadow: 0px 0px 5px red;
+    margin-bottom: 2rem;
+}
+.svgimg{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+.list li{
+    list-style-type: none;
+    display: none;
+    font-size: 1rem;
+    border: 1px solid;
+    border-bottom: 1px solid;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.svgimg:hover{
+    background-color: rgba(153, 151, 151, 0.836);
+    
+}
+.svgimg:hover +.list li{
+display: inline-block;
+width: 7rem;
+
+}
+.list ul{
+    width: 7.1rem;
+    background-color: rgba(153, 151, 151, 0.836);
+
+}
+.svgimg:hover +.list ul{
+      border-radius: 5px;
+border: 1px solid ;
+
+}
+
+.svgimg svg{
+    width: 20px;
+    height: 10px;
+}
+.alert {
+    background: pink;
+    padding: 20px;
+    text-align: center;
+  }
+  .alert:empty {
+    display:none ;
+  }
+  .searchheading{
+    margin-top: 2rem;
+  }
+  .searchbox{
+    margin-top: 2rem;
+  }
+.searchbox input{
+   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+        
+.searchbox input:focus {
+    width: 400px;
+}
+.emailbox{
+    margin-top: 2rem;
+}
+
+.emailbox input{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.emailbox :invalid{
+           background-color: aliceblue  ;
+           border: 2px solid red;  
+}
+
+.parapractice p{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+
+}
+.parapractice :nth-child(5){
+    background-color: red;
+}
+.parapractice :nth-child(3){
+    background-color: red;
+}
+.container{
+    width: 300px;
+    height: 250px;
+    border: 2px solid;
+
+    overflow: auto;
+    display: inline-block;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 10px;
+    background-color:rgb(134, 150, 167);
+    border-style:hidden;
+}
+.paradivv{
+    text-align: center;
+}

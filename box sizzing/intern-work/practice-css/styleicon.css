@@ -1,0 +1,22 @@
+h1{
+    color: black;
+    text-align: center;
+    background-color: lightsalmon;
+}
+.icon{
+    color: rgb(255, 0, 21);
+    font-size: 100px;
+}
+.peselement::first-letter{
+    color: tomato;
+    font-size: 100px;
+}
+.peselement::selection{
+    color:rgb(255, 0, 0);
+}
+.befr1::after{
+    content: "url(smiley.gif)";
+    background-color: darkmagenta;
+color: bisque;
+display: inline;
+}
